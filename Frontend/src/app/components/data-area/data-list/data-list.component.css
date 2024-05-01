@@ -1,0 +1,165 @@
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.selectLabel {
+  position: absolute;
+  right: 56.5%;
+  top: 182px;
+  z-index: 2;
+  color: #ababab;
+}
+.songCard {
+  border: 1px solid;
+  width: 320px;
+  margin: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+.songCard:hover {
+  transform: scale(1.02);
+}
+.songName {
+  color: black;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.53);
+  padding: 10px 0;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-bottom: 10px;
+}
+.songLength {
+  font-weight: 700;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: black;
+}
+.songDescription {
+  padding: 15px;
+}
+
+.viewingOptions > * {
+  margin: 20px;
+}
+.songCard img {
+  width: 300px;
+  border-radius: 6px;
+}
+
+.songCard a {
+  color: black;
+  text-decoration-line: none;
+  font-weight: 700;
+}
+
+/* --------------------------------- */
+
+button {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  padding: 0;
+  padding-top: 10px;
+}
+
+button:focus,
+button:hover {
+  color: #fff;
+}
+
+button:focus:after,
+button:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+button:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+/* --------------------------------- */
+
+.search {
+  display: inline-block;
+}
+
+.search__input {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #595959;
+  border: none;
+
+  color: #d6fce6;
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  width: 15em;
+  transition: all ease-in-out 0.3s;
+  margin-right: -2rem;
+}
+
+.search__input:hover,
+.search__input:focus {
+  box-shadow: 0 0 1em #00000013;
+}
+
+.search__input:focus {
+  outline: none;
+  background-color: rgb(64, 73, 69);
+  box-shadow: 0px 0px 10px rgba(175, 255, 222, 0.402);
+}
+
+.search__input::-webkit-input-placeholder {
+  font-weight: 100;
+  color: #ababab;
+}
+
+.search__input:focus + .search__button {
+  background-color: #f0eeee;
+}
+
+.search__button:hover {
+  cursor: pointer;
+}
+
+.search__icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: #b4b4b4;
+}
+
+.msg {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 30px auto;
+  padding: 30px 50px;
+  width: max-content;
+  background: rgba(141, 255, 185, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(141, 255, 185, 0.3);
+}

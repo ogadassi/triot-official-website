@@ -1,0 +1,8 @@
+<div class="cardContainer">
+  <div class="card" *ngFor="let m of members">
+    <h2>{{ m.firstName }} {{ m.lastName }}</h2>
+    <img [src]="m.imageUrl" />
+    <h4>{{ m.part }}</h4>
+    <h5>{{ m.bio }}</h5>
+  </div>
+</div>

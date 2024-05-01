@@ -1,0 +1,53 @@
+<div *ngIf="user" class="viewingOptions">
+  <select class="search__input" [(ngModel)]="albumId" (change)="filterSongs()">
+    <option selected value="all">All</option>
+    <option *ngFor="let a of albums" [value]="a.id">{{ a.name }}</option>
+  </select>
+
+  <div class="search">
+    <input
+      type="text"
+      [(ngModel)]="searchStr"
+      class="search__input"
+      placeholder="Search a song..."
+      (input)="searchSongs()"
+    />
+  </div>
+</div>
+
+<div routerLink="/login" class="msg" *ngIf="!user">
+  Please log in to view Songs...
+</div>
+
+<div class="msg" *ngIf="!songs?.length && user">
+  No songs with '{{ searchStr }}'...
+</div>
+
+<div *ngIf="user" class="cardContainer">
+  <div
+    class="songCard"
+    [ngStyle]="
+      (s.albumId === 4 && { 'background-color': '#bcbcbc81' }) ||
+      (s.albumId === 5 && { 'background-color': '#b2ff9581' })
+    "
+    *ngFor="let s of songs"
+  >
+    <div class="songName">
+      {{ s.name }}
+    </div>
+
+    <div class="songLength">
+      {{ getSongLength(s.durationInSeconds) }}
+    </div>
+
+    <img [src]="getAlbumImage(s.albumId)" />
+
+    <button class="lyrics" routerLink="/songs/details/{{ s.id }}">
+      Lyrics
+    </button>
+
+    <div class="songDescription">
+      {{ s.description }}
+    </div>
+  </div>
+</div>

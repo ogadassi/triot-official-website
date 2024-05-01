@@ -1,0 +1,90 @@
+<form (ngSubmit)="send()" ngNativeValidate>
+  <div class="form-control">
+    <input
+      required
+      minlength="2"
+      maxlength="50"
+      name="firstName"
+      [(ngModel)]="user.firstName"
+      type="text"
+    />
+    <label>
+      <span style="transition-delay: 0ms">F</span
+      ><span style="transition-delay: 50ms">i</span
+      ><span style="transition-delay: 100ms">r</span
+      ><span style="transition-delay: 150ms">s</span
+      ><span style="transition-delay: 200ms">t&nbsp;</span>
+      <span style="transition-delay: 250ms">n</span
+      ><span style="transition-delay: 300ms">a</span
+      ><span style="transition-delay: 350ms">m</span
+      ><span style="transition-delay: 400ms">e</span>
+    </label>
+  </div>
+
+  <div class="form-control">
+    <input
+      required
+      minlength="2"
+      maxlength="50"
+      name="lastName"
+      [(ngModel)]="user.lastName"
+      type="text"
+    />
+    <label>
+      <span style="transition-delay: 0ms">L</span
+      ><span style="transition-delay: 50ms">a</span
+      ><span style="transition-delay: 100ms">s</span
+      ><span style="transition-delay: 150ms">t</span
+      ><span style="transition-delay: 200ms">&nbsp;</span>
+      <span style="transition-delay: 250ms">n</span
+      ><span style="transition-delay: 300ms">a</span
+      ><span style="transition-delay: 350ms">m</span
+      ><span style="transition-delay: 400ms">e</span>
+    </label>
+  </div>
+
+  <div class="form-control">
+    <input
+      required
+      minlength="8"
+      maxlength="50"
+      name="email"
+      [(ngModel)]="user.email"
+      type="email"
+    />
+    <label>
+      <span style="transition-delay: 0ms">E</span
+      ><span style="transition-delay: 100ms">m</span
+      ><span style="transition-delay: 200ms">a</span
+      ><span style="transition-delay: 300ms">i</span
+      ><span style="transition-delay: 400ms">l</span>
+    </label>
+  </div>
+
+  <div class="form-control">
+    <input
+      required
+      minlength="8"
+      maxlength="30"
+      name="password"
+      [(ngModel)]="user.password"
+      type="password"
+    />
+    <label>
+      <span style="transition-delay: 0ms">P</span
+      ><span style="transition-delay: 50ms">a</span
+      ><span style="transition-delay: 100ms">s</span
+      ><span style="transition-delay: 150ms">s</span
+      ><span style="transition-delay: 200ms">w</span
+      ><span style="transition-delay: 250ms">o</span
+      ><span style="transition-delay: 300ms">r</span
+      ><span style="transition-delay: 350ms">d</span>
+    </label>
+  </div>
+
+  <div>
+    <button class="btn">
+      <i class="animation"></i>Log In<i class="animation"></i>
+    </button>
+  </div>
+</form>

@@ -1,0 +1,930 @@
+Time: Wed Apr 24 2024 12:04:41 GMT+0300 (Israel Daylight Time)
+Message: Route /api/albums/1 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:07:41 GMT+0300 (Israel Daylight Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?,?,?,?)' at line 2
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?,?,?,?)' at line 2
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:08:12 GMT+0300 (Israel Daylight Time)
+Message: Route /api/products/images/20f604a4-a769-46c0-aef1-7a7ed5659cd4.png not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:08:19 GMT+0300 (Israel Daylight Time)
+Message: Route /api/products/images/20f604a4-a769-46c0-aef1-7a7ed5659cd4.png not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:08:20 GMT+0300 (Israel Daylight Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:09:15 GMT+0300 (Israel Daylight Time)
+Message: Route /api/products/images/20f604a4-a769-46c0-aef1-7a7ed5659cd4.png not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:09:15 GMT+0300 (Israel Daylight Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:09:19 GMT+0300 (Israel Daylight Time)
+Message: Route /api/products/images/20f604a4-a769-46c0-aef1-7a7ed5659cd4.png not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:10:35 GMT+0300 (Israel Daylight Time)
+Message: Route /api/albums/1 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:16:00 GMT+0300 (Israel Daylight Time)
+Message: id 2 not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:37:46 GMT+0300 (Israel Daylight Time)
+Message: Route /api/register not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:38:45 GMT+0300 (Israel Daylight Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 2
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 2
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:52:24 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:52:31 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:52:41 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:55:21 GMT+0300 (Israel Daylight Time)
+Message: Route /api/products/images/16c8f6e2-a390-479e-b864-f4d57a00e5e6.png not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 12:55:22 GMT+0300 (Israel Daylight Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 13:00:57 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs/:id not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 13:01:20 GMT+0300 (Israel Daylight Time)
+Message: "description" length must be less than or equal to 200 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 13:06:45 GMT+0300 (Israel Daylight Time)
+Message: Unknown column 'imageName' in 'field list'
+Stack: Error: Unknown column 'imageName' in 'field list'
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Wed Apr 24 2024 13:08:43 GMT+0300 (Israel Daylight Time)
+Message: "description" length must be less than or equal to 200 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 13:13:10 GMT+0300 (Israel Daylight Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mtv'%'' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mtv'%'' at line 1
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Wed Apr 24 2024 13:13:48 GMT+0300 (Israel Daylight Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'mtv'%' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'mtv'%' at line 1
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Wed Apr 24 2024 13:14:00 GMT+0300 (Israel Daylight Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''mtv''%' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''mtv''%' at line 1
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Wed Apr 24 2024 13:14:37 GMT+0300 (Israel Daylight Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'mtv'%' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'mtv'%' at line 1
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Wed Apr 24 2024 13:15:28 GMT+0300 (Israel Daylight Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mtv'%'' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mtv'%'' at line 1
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Wed Apr 24 2024 13:38:29 GMT+0300 (Israel Daylight Time)
+Message: Data too long for column 'description' at row 1
+Stack: Error: Data too long for column 'description' at row 1
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Wed Apr 24 2024 13:39:50 GMT+0300 (Israel Daylight Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=4' at line 2
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=4' at line 2
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Wed Apr 24 2024 14:54:07 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 14:54:11 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 14:55:04 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 14:55:05 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 16:16:03 GMT+0300 (Israel Daylight Time)
+Message: Route /api/members not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 16:52:14 GMT+0300 (Israel Daylight Time)
+Message: "name" is required
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 16:52:22 GMT+0300 (Israel Daylight Time)
+Message: "lastName" length must be at least 100 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 16:52:45 GMT+0300 (Israel Daylight Time)
+Message: "bio" length must be less than or equal to 200 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Wed Apr 24 2024 16:53:08 GMT+0300 (Israel Daylight Time)
+Message: Unknown column 'name' in 'field list'
+Stack: Error: Unknown column 'name' in 'field list'
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Wed Apr 24 2024 16:53:58 GMT+0300 (Israel Daylight Time)
+Message: Column count doesn't match value count at row 1
+Stack: Error: Column count doesn't match value count at row 1
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Wed Apr 24 2024 17:04:25 GMT+0300 (Israel Daylight Time)
+Message: "bio" must be a string
+Stack: undefined
+---------------------------------------
+
+Time: Fri Apr 26 2024 14:00:13 GMT+0300 (Israel Daylight Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, imageName) as imageUrl FROM albums' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, imageName) as imageUrl FROM albums' at line 1
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Fri Apr 26 2024 14:00:17 GMT+0300 (Israel Daylight Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, imageName) as imageUrl FROM albums' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, imageName) as imageUrl FROM albums' at line 1
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Fri Apr 26 2024 14:01:31 GMT+0300 (Israel Daylight Time)
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, imageName) as imageUrl FROM albums' at line 1
+Stack: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, imageName) as imageUrl FROM albums' at line 1
+    at Packet.asError (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at Query.execute (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (E:\Programming\new stuff\02 - TRIOT\Backend\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+---------------------------------------
+
+Time: Fri Apr 26 2024 14:14:07 GMT+0300 (Israel Daylight Time)
+Message: "description" length must be less than or equal to 200 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Fri Apr 26 2024 14:15:50 GMT+0300 (Israel Daylight Time)
+Message: "description" length must be less than or equal to 200 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Fri Apr 26 2024 14:16:10 GMT+0300 (Israel Daylight Time)
+Message: "description" length must be less than or equal to 200 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Fri Apr 26 2024 14:16:17 GMT+0300 (Israel Daylight Time)
+Message: "description" length must be less than or equal to 200 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Fri Apr 26 2024 14:18:56 GMT+0300 (Israel Daylight Time)
+Message: "lyrics" length must be less than or equal to 2000 characters long
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 27 2024 13:05:45 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/All not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 27 2024 13:05:47 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/All not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 27 2024 13:05:53 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/All not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 27 2024 13:06:29 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/All not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sat Apr 27 2024 13:12:07 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/All not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:23:43 GMT+0300 (Israel Daylight Time)
+Message: Email already taken.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:30:17 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:30:19 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:30:21 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:31:22 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:31:25 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:31:32 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:31:34 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:31:37 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:31:45 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:31:48 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:31:49 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:31:57 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:32:10 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:33:34 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:37:19 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:37:20 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:55:45 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/All not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:55:52 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/All not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 11:55:58 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/All not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 12:35:20 GMT+0300 (Israel Daylight Time)
+Message: "email" is required
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 12:35:29 GMT+0300 (Israel Daylight Time)
+Message: "email" is required
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 12:37:22 GMT+0300 (Israel Daylight Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 12:54:37 GMT+0300 (Israel Daylight Time)
+Message: "firstName" is required
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:18:58 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:19:02 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:19:06 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:19:19 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:19:21 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:19:48 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:31:49 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:31:50 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:31:51 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:33:13 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:33:15 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:33:20 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:33:40 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:33:48 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:33:49 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:33:50 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:33:51 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:34:53 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:36:36 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:36:40 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:36:44 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:37:23 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:38:06 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:38:14 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:39:14 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:39:30 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:41:39 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:41:53 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:45:30 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:47:35 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:47:36 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:47:48 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:48:16 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:49:10 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:52:56 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:53:23 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:53:52 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:55:26 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:55:47 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:55:58 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:56:01 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 14:56:02 GMT+0300 (Israel Daylight Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:30:24 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:30:49 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:31:33 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:34:01 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:34:06 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:34:14 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:37:08 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:37:37 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:40:14 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:40:28 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:43:04 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:45:48 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:46:00 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:46:12 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:46:56 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:56:05 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:58:37 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:58:42 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:58:45 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 15:58:48 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:00:21 GMT+0300 (Israel Daylight Time)
+Message: You are not logged in.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:05:55 GMT+0300 (Israel Daylight Time)
+Message: Email already taken.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:07:13 GMT+0300 (Israel Daylight Time)
+Message: Email already taken.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:07:44 GMT+0300 (Israel Daylight Time)
+Message: Email already taken.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:08:57 GMT+0300 (Israel Daylight Time)
+Message: Email already taken.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:09:23 GMT+0300 (Israel Daylight Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:09:37 GMT+0300 (Israel Daylight Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:10:16 GMT+0300 (Israel Daylight Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:10:43 GMT+0300 (Israel Daylight Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:11:03 GMT+0300 (Israel Daylight Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:11:22 GMT+0300 (Israel Daylight Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:11:26 GMT+0300 (Israel Daylight Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:11:40 GMT+0300 (Israel Daylight Time)
+Message: Email already taken.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Apr 29 2024 16:12:02 GMT+0300 (Israel Daylight Time)
+Message: Email already taken.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Apr 30 2024 14:39:17 GMT+0300 (Israel Daylight Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Apr 30 2024 14:44:38 GMT+0300 (Israel Daylight Time)
+Message: Incorrect email or password.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Apr 30 2024 20:25:49 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/all not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Apr 30 2024 20:25:52 GMT+0300 (Israel Daylight Time)
+Message: Route /api/songs-by-album/all not found.
+Stack: undefined
+---------------------------------------
+

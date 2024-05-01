@@ -1,0 +1,96 @@
+# docker-compose version:
+version: '3.8'
+
+# Service list:
+services:
+
+  # Database service: 
+  triot-database:
+
+    # Image name to create from Dockerfile: 
+    image: ogadassi/triot-database-image:1.0
+
+    # Where is the location of the Dockerfile:
+    build: ./Database
+
+    # Container name: 
+    container_name: triot-database-container
+
+    # On crash - what to do - restart unless manually stopped:
+    restart: unless-stopped
+
+    # Volumes
+    volumes:
+      - triot-db:/var/lib/mysql
+
+    # Environment variables needed by mysql installation 
+    environment:
+      MYSQL_HOST: localhost
+      MYSQL_USER: TheMaryEllenCarter
+      MYSQL_PASSWORD: 0809071020Og
+      MYSQL_ROOT_PASSWORD: 0809071020Og
+      MYSQL_DATABASE: triot
+    #--------------------------------------------------------------------------------------
+
+    # Database service: 
+  triot-backend:
+
+    # on which service were depending on
+    depends_on:
+      - triot-database
+
+    # Image name to create from Dockerfile: 
+    image: ogadassi/triot-backend-image:1.0
+
+    # Where is the location of the Dockerfile:
+    build: ./Backend
+
+    # Container name: 
+    container_name: triot-backend-container
+
+    # Port binding:
+    ports:
+      - 4000:4000
+
+    # On crash - what to do - restart unless manually stopped:
+    restart: unless-stopped
+
+    # Volumes
+    volumes:
+      - triot-backend-images:/app/src/1-assets/images
+
+    # Environment variables needed by backend container
+    environment:
+      MYSQL_HOST: triot-database
+      MYSQL_USER: TheMaryEllenCarter
+      MYSQL_PASSWORD: 0809071020Og
+      MYSQL_DATABASE: triot
+    #--------------------------------------------------------------------------------------
+
+    # Database service: 
+  triot-frontend:
+
+    # on which service were depending on
+    depends_on:
+      - triot-backend
+
+    # Image name to create from Dockerfile: 
+    image: ogadassi/triot-frontend-image:1.0
+
+    # Where is the location of the Dockerfile:
+    build: ./Frontend
+
+    # Container name: 
+    container_name: triot-frontend-container
+
+    # Port binding:
+    ports:
+      - 4200:4200
+
+    # On crash - what to do - restart unless manually stopped:
+    restart: unless-stopped
+
+#--------------------------------------------------------------------------------------
+volumes:
+  triot-db:
+  triot-backend-images:

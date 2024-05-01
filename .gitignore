@@ -1,0 +1,7 @@
+ .env
+
+node_modules
+
+# Backend/triot.postman_collection.json
+
+# errors.log
