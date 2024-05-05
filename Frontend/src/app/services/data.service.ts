@@ -21,7 +21,7 @@ export class MusicService {
     const observable = this.http.get<SongModel[]>(appConfig.songsUrl, {
       headers: this.getHeaders(),
     });
-    const songs = firstValueFrom(observable);
+    const songs = await firstValueFrom(observable);
     return songs;
   }
 
@@ -29,7 +29,7 @@ export class MusicService {
     const observable = this.http.get<SongModel>(appConfig.songsUrl + id, {
       headers: this.getHeaders(),
     });
-    const song = firstValueFrom(observable);
+    const song = await firstValueFrom(observable);
     return song;
   }
 
@@ -41,7 +41,7 @@ export class MusicService {
       }
     );
 
-    const songs = firstValueFrom(observable);
+    const songs = await firstValueFrom(observable);
     return songs;
   }
 
@@ -53,7 +53,7 @@ export class MusicService {
       }
     );
 
-    const songs = firstValueFrom(observable);
+    const songs = await firstValueFrom(observable);
     return songs;
   }
 
@@ -61,7 +61,7 @@ export class MusicService {
     const observable = this.http.get<AlbumModel[]>(appConfig.albumsUrl, {
       headers: this.getHeaders(),
     });
-    const albums = firstValueFrom(observable);
+    const albums = await firstValueFrom(observable);
     return albums;
   }
 
@@ -69,19 +69,19 @@ export class MusicService {
     const observable = this.http.get<AlbumModel>(appConfig.albumsUrl + id, {
       headers: this.getHeaders(),
     });
-    const album = firstValueFrom(observable);
+    const album = await firstValueFrom(observable);
     return album;
   }
 
   public async getAllMembers(): Promise<MemberModel[]> {
     const observable = this.http.get<MemberModel[]>(appConfig.membersUrl);
-    const members = firstValueFrom(observable);
+    const members = await firstValueFrom(observable);
     return members;
   }
 
   public async getOneMember(id: number): Promise<MemberModel> {
     const observable = this.http.get<MemberModel>(appConfig.membersUrl + id);
-    const member = firstValueFrom(observable);
+    const member = await firstValueFrom(observable);
     return member;
   }
 }

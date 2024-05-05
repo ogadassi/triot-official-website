@@ -1,3 +1,39 @@
-<!-- <img [src]="getAlbumImage(song?.albumId)" /> -->
+<img *ngIf="song && song.albumId" [src]="getAlbumImage(song.albumId)" />
 <h1>{{ song?.name }}</h1>
-<p *ngFor="let l of lyrics">{{ l }}</p>
+
+<div class="lyrics-container">
+  <p *ngFor="let l of lyrics">{{ l }}</p>
+</div>
+
+<div class="comment-container">
+  <p *ngIf="!comments || comments?.length === 0">
+    No comments for this song...
+  </p>
+
+  <p *ngFor="let c of comments">
+    <strong> {{ getUsername(c.userId) }}</strong>
+    {{ c.message }}
+    <br />
+  </p>
+  <div class="messageBox">
+    <div class="fileUploadWrapper"></div>
+    <input
+      [(ngModel)]="comment.message"
+      required=""
+      placeholder="Add a comment..."
+      type="text"
+      id="messageInput"
+    />
+    <button (click)="addComment()" id="sendButton">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 664 663">
+        <path
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-width="33.67"
+          stroke="#6c6c6c"
+          d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888"
+        ></path>
+      </svg>
+    </button>
+  </div>
+</div>

@@ -10,6 +10,7 @@ import { albumsRouter } from "./6-controllers/albums-controller";
 import { authRouter } from "./6-controllers/auth-controller";
 import { songsRouter } from "./6-controllers/songs-controller";
 import { membersRouter } from "./6-controllers/members-controller";
+import { commentsRouter } from "./6-controllers/comments-controller";
 
 // Main application class:
 class App {
@@ -39,7 +40,8 @@ class App {
       authRouter,
       albumsRouter,
       songsRouter,
-      membersRouter
+      membersRouter,
+      commentsRouter
     );
 
     // Route not found middleware:

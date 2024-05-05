@@ -35,7 +35,7 @@
 .songLength {
   font-weight: 700;
   position: absolute;
-  top: 5px;
+  top: 10px;
   right: 10px;
   color: black;
 }

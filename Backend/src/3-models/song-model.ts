@@ -1,4 +1,3 @@
-import { UploadedFile } from "express-fileupload";
 import Joi from "joi";
 import { ValidationError } from "./client-errors";
 
